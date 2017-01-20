@@ -1,0 +1,108 @@
+exports[`<Td /> should accept className and style functions 1`] = `
+<td
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  John Hancock
+</td>
+`;
+
+exports[`<Td /> should accept className, style, and other DOM props 1`] = `
+<td
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  John Hancock
+</td>
+`;
+
+exports[`<Td /> should use a custom renderer if available 1`] = `
+<td
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  Andrew Arnott
+</td>
+`;
+
+exports[`<Td /> should use a selector function to get the appropriate value from the row if available 1`] = `
+<td
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <render
+    column={
+      Object {
+        "header": "Location",
+        "id": "location",
+        "render": [Function],
+        "selector": "location",
+      }
+    }
+    columnIndex={1}
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": "Location",
+          "id": "location",
+          "render": [Function],
+          "selector": "location",
+        },
+        Object {
+          "header": "CEO",
+          "id": "ceoFullName",
+          "selector": [Function],
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "ceo": Object {
+            "firstName": "Mark",
+            "lastName": "Watson",
+          },
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "ceo": Object {
+            "firstName": "Andrew",
+            "lastName": "Arnott",
+          },
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    row={
+      Object {
+        "ceo": Object {
+          "firstName": "Andrew",
+          "lastName": "Arnott",
+        },
+        "company": "John Hancock",
+        "location": "New York",
+      }
+    }
+    rowIndex={1}
+    value="New York" />
+</td>
+`;

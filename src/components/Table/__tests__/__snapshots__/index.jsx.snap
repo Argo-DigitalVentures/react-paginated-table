@@ -1,0 +1,51 @@
+exports[`<Table /> should accept className, style, and other DOM props 1`] = `
+<table
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <Component
+    ThComponent={[Function]}
+    className="theadClassName"
+    columns={Array []}
+    data={Array []}
+    handleHeaderClick={[Function]}
+    sorts={Array []}
+    style={
+      Object {
+        "color": "red",
+      }
+    }
+    thClassName="thClassName"
+    thStyle={
+      Object {
+        "color": "purple",
+      }
+    } />
+  <Component
+    TdComponent={[Function]}
+    TrComponent={[Function]}
+    className="tbodyClassName"
+    columns={Array []}
+    data={Array []}
+    style={
+      Object {
+        "color": "blue",
+      }
+    }
+    tdClassName="tdClassName"
+    tdStyle={
+      Object {
+        "color": "gray",
+      }
+    }
+    trClassName="trClassName"
+    trStyle={
+      Object {
+        "color": "orange",
+      }
+    } />
+</table>
+`;

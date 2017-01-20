@@ -1,0 +1,12 @@
+exports[`<Previous /> should accept className, style, and other DOM props 1`] = `
+<button
+  aria-label="previous page button"
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  Previous
+</button>
+`;

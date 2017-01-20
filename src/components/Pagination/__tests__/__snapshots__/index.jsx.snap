@@ -1,0 +1,395 @@
+exports[`<Pagination /> should accept className, style, and other DOM props 1`] = `
+<div
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <Previous
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={Object {}} />
+  <div>
+    Page 
+    <select
+      onChange={[Function]}
+      value={2}>
+      <option
+        value={1}>
+        1
+      </option>
+      <option
+        value={2}>
+        2
+      </option>
+      <option
+        value={3}>
+        3
+      </option>
+      <option
+        value={4}>
+        4
+      </option>
+    </select>
+     of 4
+  </div>
+  <Next
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={Object {}} />
+  <div>
+    <select
+      onChange={[Function]}
+      value={5}>
+      <option
+        value={5}>
+        5
+      </option>
+      <option
+        value={10}>
+        10
+      </option>
+      <option
+        value={20}>
+        20
+      </option>
+      <option
+        value={25}>
+        25
+      </option>
+      <option
+        value={50}>
+        50
+      </option>
+      <option
+        value={100}>
+        100
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`<Pagination /> should allow custom page size options 1`] = `
+<div
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <Previous
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={Object {}} />
+  <div>
+    Page 
+    <select
+      onChange={[Function]}
+      value={2}>
+      <option
+        value={1}>
+        1
+      </option>
+      <option
+        value={2}>
+        2
+      </option>
+      <option
+        value={3}>
+        3
+      </option>
+      <option
+        value={4}>
+        4
+      </option>
+    </select>
+     of 4
+  </div>
+  <Next
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={Object {}} />
+  <div>
+    <select
+      onChange={[Function]}
+      value={5}>
+      <option
+        value={5}>
+        5
+      </option>
+      <option
+        value={10}>
+        10
+      </option>
+      <option
+        value={30}>
+        30
+      </option>
+      <option
+        value={60}>
+        60
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`<Pagination /> should allow the page jump to be hidden 1`] = `
+<div
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <Previous
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={Object {}} />
+  <Next
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={Object {}} />
+  <div>
+    <select
+      onChange={[Function]}
+      value={5}>
+      <option
+        value={5}>
+        5
+      </option>
+      <option
+        value={10}>
+        10
+      </option>
+      <option
+        value={20}>
+        20
+      </option>
+      <option
+        value={25}>
+        25
+      </option>
+      <option
+        value={50}>
+        50
+      </option>
+      <option
+        value={100}>
+        100
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`<Pagination /> should allow the page size selector to be hidden 1`] = `
+<div
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <Previous
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={Object {}} />
+  <div>
+    Page 
+    <select
+      onChange={[Function]}
+      value={2}>
+      <option
+        value={1}>
+        1
+      </option>
+      <option
+        value={2}>
+        2
+      </option>
+      <option
+        value={3}>
+        3
+      </option>
+      <option
+        value={4}>
+        4
+      </option>
+    </select>
+     of 4
+  </div>
+  <Next
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={Object {}} />
+</div>
+`;
+
+exports[`<Pagination /> should pass custom styles and classNames to Next and Previous components 1`] = `
+<div
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <Previous
+    className="testPrevious"
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "blue",
+      }
+    } />
+  <div>
+    Page 
+    <select
+      onChange={[Function]}
+      value={2}>
+      <option
+        value={1}>
+        1
+      </option>
+      <option
+        value={2}>
+        2
+      </option>
+      <option
+        value={3}>
+        3
+      </option>
+      <option
+        value={4}>
+        4
+      </option>
+    </select>
+     of 4
+  </div>
+  <Next
+    className="testNext"
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "red",
+      }
+    } />
+  <div>
+    <select
+      onChange={[Function]}
+      value={5}>
+      <option
+        value={5}>
+        5
+      </option>
+      <option
+        value={10}>
+        10
+      </option>
+      <option
+        value={20}>
+        20
+      </option>
+      <option
+        value={25}>
+        25
+      </option>
+      <option
+        value={50}>
+        50
+      </option>
+      <option
+        value={100}>
+        100
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`<Pagination /> should use custom Next and Previous components 1`] = `
+<div
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <CustomPrevious
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={Object {}} />
+  <div>
+    Page 
+    <select
+      onChange={[Function]}
+      value={2}>
+      <option
+        value={1}>
+        1
+      </option>
+      <option
+        value={2}>
+        2
+      </option>
+      <option
+        value={3}>
+        3
+      </option>
+      <option
+        value={4}>
+        4
+      </option>
+    </select>
+     of 4
+  </div>
+  <CustomNext
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={Object {}} />
+  <div>
+    <select
+      onChange={[Function]}
+      value={5}>
+      <option
+        value={5}>
+        5
+      </option>
+      <option
+        value={10}>
+        10
+      </option>
+      <option
+        value={20}>
+        20
+      </option>
+      <option
+        value={25}>
+        25
+      </option>
+      <option
+        value={50}>
+        50
+      </option>
+      <option
+        value={100}>
+        100
+      </option>
+    </select>
+  </div>
+</div>
+`;

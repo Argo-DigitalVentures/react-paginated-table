@@ -1,0 +1,229 @@
+exports[`<ReactTable /> should display the loading component if loading prop is true 1`] = `
+<div
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <Loading
+    className=""
+    style={Object {}} />
+  <Table
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    className=""
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": [Function],
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    handleHeaderClick={[Function]}
+    sorts={Array []}
+    style={Object {}}
+    tbodyClassName=""
+    tbodyStyle={Object {}}
+    tdClassName=""
+    tdStyle={Object {}}
+    thClassName=""
+    thStyle={Object {}}
+    theadClassName=""
+    theadStyle={Object {}}
+    trClassName=""
+    trStyle={Object {}} />
+  <Pagination
+    NextComponent={[Function]}
+    PreviousComponent={[Function]}
+    className=""
+    count={10}
+    decrementPage={[Function]}
+    incrementPage={[Function]}
+    jumpToPage={[Function]}
+    nextClassName=""
+    nextStyle={Object {}}
+    page={1}
+    pageSize={20}
+    pageSizeOptions={
+      Array [
+        5,
+        10,
+        20,
+        25,
+        50,
+        100,
+      ]
+    }
+    previousClassName=""
+    previousStyle={Object {}}
+    setPageSize={[Function]}
+    showPageJump={true}
+    showPageSizeOptions={true}
+    style={Object {}} />
+</div>
+`;
+
+exports[`<ReactTable /> should hide the pagination component if showPagination prop is false 1`] = `
+<div
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <Table
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    className=""
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": [Function],
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    handleHeaderClick={[Function]}
+    sorts={Array []}
+    style={Object {}}
+    tbodyClassName=""
+    tbodyStyle={Object {}}
+    tdClassName=""
+    tdStyle={Object {}}
+    thClassName=""
+    thStyle={Object {}}
+    theadClassName=""
+    theadStyle={Object {}}
+    trClassName=""
+    trStyle={Object {}} />
+</div>
+`;
+
+exports[`<ReactTable /> should use custom style, className, and other DOM props 1`] = `
+<div
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <Table
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    className=""
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": [Function],
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    handleHeaderClick={[Function]}
+    sorts={Array []}
+    style={Object {}}
+    tbodyClassName=""
+    tbodyStyle={Object {}}
+    tdClassName=""
+    tdStyle={Object {}}
+    thClassName=""
+    thStyle={Object {}}
+    theadClassName=""
+    theadStyle={Object {}}
+    trClassName=""
+    trStyle={Object {}} />
+  <Pagination
+    NextComponent={[Function]}
+    PreviousComponent={[Function]}
+    className=""
+    count={10}
+    decrementPage={[Function]}
+    incrementPage={[Function]}
+    jumpToPage={[Function]}
+    nextClassName=""
+    nextStyle={Object {}}
+    page={1}
+    pageSize={20}
+    pageSizeOptions={
+      Array [
+        5,
+        10,
+        20,
+        25,
+        50,
+        100,
+      ]
+    }
+    previousClassName=""
+    previousStyle={Object {}}
+    setPageSize={[Function]}
+    showPageJump={true}
+    showPageSizeOptions={true}
+    style={Object {}} />
+</div>
+`;

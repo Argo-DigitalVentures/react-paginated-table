@@ -1,0 +1,73 @@
+exports[`<Th /> should accept className and style functions 1`] = `
+<th
+  className="test"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  Company Name
+</th>
+`;
+
+exports[`<Th /> should accept className, style, and other DOM props 1`] = `
+<th
+  className="test"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  Company Name
+</th>
+`;
+
+exports[`<Th /> should use a custom header renderer if available 1`] = `
+<th
+  className="test"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <header
+    column={
+      Object {
+        "header": [Function],
+        "id": "location",
+        "selector": "location",
+      }
+    }
+    columnIndex={1}
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": [Function],
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    sortDirection={null} />
+</th>
+`;

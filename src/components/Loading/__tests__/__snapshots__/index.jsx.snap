@@ -1,0 +1,12 @@
+exports[`<Loading /> should accept className, style, and other DOM props 1`] = `
+<div
+  aria-label="loading indicator"
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  Loading...
+</div>
+`;

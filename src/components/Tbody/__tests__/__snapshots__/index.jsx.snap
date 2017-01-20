@@ -1,0 +1,193 @@
+exports[`<Tbody /> should accept className, style, and other DOM props 1`] = `
+<tbody
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <Tr
+    CellComponent={[Function]}
+    cellClassName=""
+    cellStyle={Object {}}
+    className=""
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": [Function],
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    row={
+      Object {
+        "company": "Argo",
+        "location": "New York",
+      }
+    }
+    rowIndex={0}
+    style={Object {}} />
+  <Tr
+    CellComponent={[Function]}
+    cellClassName=""
+    cellStyle={Object {}}
+    className=""
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": [Function],
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    row={
+      Object {
+        "company": "John Hancock",
+        "location": "New York",
+      }
+    }
+    rowIndex={1}
+    style={Object {}} />
+</tbody>
+`;
+
+exports[`<Tbody /> should use a custom row and cell components 1`] = `
+<tbody
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <FakeTrComponent
+    CellComponent={[Function]}
+    cellClassName="tdTestClassName"
+    cellStyle={
+      Object {
+        "color": "purple",
+      }
+    }
+    className="trTestClassName"
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": [Function],
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    row={
+      Object {
+        "company": "Argo",
+        "location": "New York",
+      }
+    }
+    rowIndex={0}
+    style={
+      Object {
+        "color": "yellow",
+      }
+    } />
+  <FakeTrComponent
+    CellComponent={[Function]}
+    cellClassName="tdTestClassName"
+    cellStyle={
+      Object {
+        "color": "purple",
+      }
+    }
+    className="trTestClassName"
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": [Function],
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    row={
+      Object {
+        "company": "John Hancock",
+        "location": "New York",
+      }
+    }
+    rowIndex={1}
+    style={
+      Object {
+        "color": "yellow",
+      }
+    } />
+</tbody>
+`;

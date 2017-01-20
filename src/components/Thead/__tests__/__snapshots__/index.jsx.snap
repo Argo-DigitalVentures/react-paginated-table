@@ -1,0 +1,181 @@
+exports[`<Thead /> should accept className, style, and other DOM props 1`] = `
+<thead
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <tr>
+    <Th
+      className="thTestClassName"
+      column={
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        }
+      }
+      columnIndex={0}
+      columns={
+        Array [
+          Object {
+            "header": "Company Name",
+            "id": "company",
+            "selector": "company",
+          },
+          Object {
+            "header": [Function],
+            "id": "location",
+            "selector": "location",
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "company": "Argo",
+            "location": "New York",
+          },
+          Object {
+            "company": "John Hancock",
+            "location": "New York",
+          },
+        ]
+      }
+      handleHeaderClick={[Function]}
+      sorts={Array []}
+      style={Object {}} />
+    <Th
+      className="thTestClassName"
+      column={
+        Object {
+          "header": [Function],
+          "id": "location",
+          "selector": "location",
+        }
+      }
+      columnIndex={1}
+      columns={
+        Array [
+          Object {
+            "header": "Company Name",
+            "id": "company",
+            "selector": "company",
+          },
+          Object {
+            "header": [Function],
+            "id": "location",
+            "selector": "location",
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "company": "Argo",
+            "location": "New York",
+          },
+          Object {
+            "company": "John Hancock",
+            "location": "New York",
+          },
+        ]
+      }
+      handleHeaderClick={[Function]}
+      sorts={Array []}
+      style={Object {}} />
+  </tr>
+</thead>
+`;
+
+exports[`<Thead /> should use a custom ThComponent 1`] = `
+<thead
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  <tr>
+    <FakeThComponent
+      className="thTestClassName"
+      column={
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        }
+      }
+      columnIndex={0}
+      columns={
+        Array [
+          Object {
+            "header": "Company Name",
+            "id": "company",
+            "selector": "company",
+          },
+          Object {
+            "header": [Function],
+            "id": "location",
+            "selector": "location",
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "company": "Argo",
+            "location": "New York",
+          },
+          Object {
+            "company": "John Hancock",
+            "location": "New York",
+          },
+        ]
+      }
+      handleHeaderClick={[Function]}
+      sorts={Array []}
+      style={Object {}} />
+    <FakeThComponent
+      className="thTestClassName"
+      column={
+        Object {
+          "header": [Function],
+          "id": "location",
+          "selector": "location",
+        }
+      }
+      columnIndex={1}
+      columns={
+        Array [
+          Object {
+            "header": "Company Name",
+            "id": "company",
+            "selector": "company",
+          },
+          Object {
+            "header": [Function],
+            "id": "location",
+            "selector": "location",
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "company": "Argo",
+            "location": "New York",
+          },
+          Object {
+            "company": "John Hancock",
+            "location": "New York",
+          },
+        ]
+      }
+      handleHeaderClick={[Function]}
+      sorts={Array []}
+      style={Object {}} />
+  </tr>
+</thead>
+`;

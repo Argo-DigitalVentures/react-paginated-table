@@ -1,0 +1,7 @@
+{
+  "rootDir": "./src",
+  "collectCoverage": true,
+  "collectCoverageFrom": ["**/*.{js,jsx}", "!**/index.js"],
+  "bail": true,
+  "verbose": true
+}

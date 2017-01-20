@@ -1,0 +1,12 @@
+exports[`<Next /> should accept className, style, and other DOM props 1`] = `
+<button
+  aria-label="next page button"
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }>
+  Next
+</button>
+`;

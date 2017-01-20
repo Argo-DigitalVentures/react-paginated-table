@@ -1,0 +1,199 @@
+exports[`<Tr /> should accept className and style functions 1`] = `
+<tr
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }
+  title="This is a row in the table.">
+  <FakeCellComponent
+    className=""
+    column={
+      Object {
+        "header": "Company Name",
+        "id": "company",
+        "selector": "company",
+      }
+    }
+    columnIndex={0}
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": "Location",
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    row={
+      Object {
+        "company": "John Hancock",
+        "location": "New York",
+      }
+    }
+    rowIndex={1}
+    style={Object {}} />
+  <FakeCellComponent
+    className=""
+    column={
+      Object {
+        "header": "Location",
+        "id": "location",
+        "selector": "location",
+      }
+    }
+    columnIndex={1}
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": "Location",
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    row={
+      Object {
+        "company": "John Hancock",
+        "location": "New York",
+      }
+    }
+    rowIndex={1}
+    style={Object {}} />
+</tr>
+`;
+
+exports[`<Tr /> should accept className, style, and other DOM props 1`] = `
+<tr
+  className="test"
+  style={
+    Object {
+      "color": "green",
+    }
+  }
+  title="This is a row in the table.">
+  <FakeCellComponent
+    className=""
+    column={
+      Object {
+        "header": "Company Name",
+        "id": "company",
+        "selector": "company",
+      }
+    }
+    columnIndex={0}
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": "Location",
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    row={
+      Object {
+        "company": "John Hancock",
+        "location": "New York",
+      }
+    }
+    rowIndex={1}
+    style={Object {}} />
+  <FakeCellComponent
+    className=""
+    column={
+      Object {
+        "header": "Location",
+        "id": "location",
+        "selector": "location",
+      }
+    }
+    columnIndex={1}
+    columns={
+      Array [
+        Object {
+          "header": "Company Name",
+          "id": "company",
+          "selector": "company",
+        },
+        Object {
+          "header": "Location",
+          "id": "location",
+          "selector": "location",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "company": "Argo",
+          "location": "New York",
+        },
+        Object {
+          "company": "John Hancock",
+          "location": "New York",
+        },
+      ]
+    }
+    row={
+      Object {
+        "company": "John Hancock",
+        "location": "New York",
+      }
+    }
+    rowIndex={1}
+    style={Object {}} />
+</tr>
+`;
